@@ -1,5 +1,7 @@
 #include <Rcpp.h>
-// using namespace Rcpp;
+#include <penalty_functions.cpp>
+#include <get_functions.cpp>
+using namespace Rcpp;
 
 // [[Rcpp::export]]
 Rcpp::List lcdfit_linear(Rcpp::DoubleVector X, Rcpp::DoubleVector y,

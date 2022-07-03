@@ -1,5 +1,6 @@
 #include <Rcpp.h>
-// using namespace Rcpp;
+#include <get_functions.cpp>
+using namespace Rcpp;
 
 // [[Rcpp::export]]
 double max_cor(Rcpp::DoubleVector X, Rcpp::DoubleVector y, Rcpp::DoubleVector K,

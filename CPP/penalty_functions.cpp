@@ -1,5 +1,5 @@
 #include <Rcpp.h>
-// using namespace Rcpp;
+using namespace Rcpp;
 
 // [[Rcpp::export]]
 double mcp(double theta, double l, double gamma) {
